@@ -1,0 +1,66 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introducción a PHP</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6bf5e9bb-0589-4a7e-8f9f-6843c0c617ed</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me"><!-- Insert module text here -->
+    PHP es un lenguaje de scripting que permite la generación dinámica de contenidos en un servidor web. El significado de sus siglas es HyperText Preprocessor. Entre sus principales características cabe destacar su potencia, su alto rendimiento, su facilidad de aprendizaje y su escasez de consumo de recursos.</para>
+
+<figure id="fig1">
+  <title>Logo PHP</title>
+  <media id="idp993264" alt=""><image src="http://www.ifef.es/integrat/images/php.png" mime-type="image/png"/></media>
+  <caption>Logotipo del lenguaje de lado del servidor PHP.</caption>
+</figure>
+
+<para id="element-427">El código PHP puede incluirse dentro del código html de la pagina. Para delimitar la seccion de codigo PHP podemos hacerlo de varias formas:</para><list id="element-15" list-type="bulleted"><item>Usando las etiquetas de apertura y cierre del lenguaje</item>
+	<item>Mediante script</item></list><para id="element-659">El funcionamiento de las páginas en PHP alojadas en un servidor es el siguiente:</para><list id="element-875" list-type="enumerated"><item>El navegador del cliente solicita el documento PHP.</item>
+	<item>Llega la solicitud del servidor y el servidor localiza el documento, lanza el intérprete de PHP y ejecuta todo su código</item>
+	<item>Una vez ejecutado el código se genera el resultado en HTML y lo devuelve al servidor para que lo transfiera al cliente</item>
+        <item>El servidor transfiere el resultado en HTML y es mostrado en el navegador del cliente.</item></list><para id="element-759">A continuación se muestra una tabla con las variables características de PHP:</para><table id="element-275" summary="">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>argv</entry>
+    <entry>Array de argumentos pasados en la ejecución del script</entry>
+  </row>
+  <row>
+    <entry>$_SERVER['argc']</entry>
+    <entry>Número de parametros pasados al script en su ejecución.</entry>
+  </row>
+  <row>
+    <entry>$_SERVER['PHP_SELF']</entry>
+    <entry>Nombre del script que se está ejecutando</entry>
+  </row>
+  <row>
+    <entry>$_COOKIE</entry>
+    <entry>Array asociativo de pares (clave,valor) pasados a través de cookies</entry>
+  </row>
+  <row>
+    <entry>$_GET</entry>
+    <entry>Array asociativo de pares (clave,valor) pasados a través de GET</entry>
+  </row>
+  <row>
+    <entry>$_POST</entry>
+    <entry>Array asociativo de pares (clave,valor) pasados a través de POST</entry>
+  </row>
+  <row>
+    <entry>$_FILES</entry>
+    <entry>Array asociativo que contiene información de los ficheros recibidos mediante POST</entry>
+  </row>
+  <row>
+    <entry>$_ENV</entry>
+    <entry>Array asociativo de pares (clave,valor) del entorno</entry>
+  </row>
+  <row>
+    <entry>$_SERVER</entry>
+    <entry>Array asociativo de pares (clave,valor) del servidor</entry>
+  </row>
+  <row>
+    <entry>$_SESSION</entry>
+    <entry>Array asociativo de pares (clave,valor) de sesion</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+  </content>
+  
+</document>
